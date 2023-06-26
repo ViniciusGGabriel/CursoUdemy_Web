@@ -1,0 +1,13 @@
+body {
+    color: white;
+}
+
+p {
+    background-color: #255;
+}
+
+strong {
+    padding: 20px;
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,20 @@
+body, html {
+    background-color: #255;
+}
+
+p {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    padding: 100px;
+    height: 10px;
+    width: 40vw;
+    border: 6px rgb(255, 0, 0) solid;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: auto;
+}
