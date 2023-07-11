@@ -2,16 +2,17 @@
     border: solid black 2px;
     padding: 10PX;
     width: 300px;
+    overflow: scroll;
 }
 
 .div {
     background: purple;
     margin-bottom: 10px;
 
-    width: fit-content;
-    /* Coloca do tamanho do conteúdo */
+    /* width: fit-content;
+    Coloca do tamanho do conteúdo
     width: min-content;
-    /* Menor largura possível  */
+    Menor largura possível  */
     width: max-content;
     /* Maior largura possível */
 }
