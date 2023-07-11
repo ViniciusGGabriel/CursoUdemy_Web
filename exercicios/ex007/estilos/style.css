@@ -1,0 +1,23 @@
+#container {
+    background: rgba(0, 0, 0, 0.315);
+}
+
+#container div {
+    background: rgba(0, 0, 139, 0.616);
+    margin: 10px;
+    width: 60%;
+    height: 60px;
+}
+
+#div1 {
+    float: left;
+}
+
+#div2 {
+    float: right;
+}
+
+#div3 {
+    clear: left;
+    /* Clear serve para meio que ignorar os float que tem a característica */
+}
