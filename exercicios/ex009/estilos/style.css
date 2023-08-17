@@ -1,0 +1,46 @@
+.container {
+    margin: 20px;
+    border: 2px solid red;
+    
+    height: 250px;
+    display: flex;
+    /* Flex wrap ele quebra linha já o nowrap limita o tamanho do item */
+    flex-wrap: nowrap;
+    /* Flex column transforma em uma coluna e tem o row que transforma em uma linha row-reverser que inverte os valores e para o column também tem a mesma tag */
+    flex-direction: row-reverse;
+    /* è possível usar as duas tags juntas pelo flex-flow*/
+    flex-flow: wrap row;
+
+}
+
+.number {
+    margin: 10px;
+    border: 2px solid blue;
+
+    width: 310px;
+}
+
+.container1 {
+    margin: 20px;
+    border: 2px solid red;
+    
+    height: 350px;
+    display: flex;
+    /* Flex wrap ele quebra linha já o nowrap limita o tamanho do item*/
+    flex-wrap: nowrap;
+    /* Flex column transforma em uma coluna e tem o row que transforma em uma linha row-reverser que inverte os valores e para o column também tem a mesma tag*/
+    flex-direction: row-reverse;
+    /* è possível usar as duas tags juntas pelo flex-flow*/
+    flex-flow: nowrap row;
+    /* O justify content muda a posição do conteúdo todo e alinha na horizontal*/
+    justify-content: space-evenly; 
+    /* Tem a propriedade align-intens que alinha vertical*/
+    align-items: center;
+}
+
+.number1 {
+    margin: 10px;
+    border: 2px solid blue;
+
+    width: 210px;
+}
